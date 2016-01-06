@@ -1,12 +1,12 @@
 package main
 
 import (
-	"fmt"
-	"net/http"
 	"encoding/json"
-	"log"
-	"io/ioutil"
+	"fmt"
 	"google.golang.org/api/customsearch/v1"
+	"io/ioutil"
+	"log"
+	"net/http"
 )
 
 const ApiKey = "AIzaSyAgMDxNmzb82S7k6-tNi6vj5GOiOjR6HlE"
